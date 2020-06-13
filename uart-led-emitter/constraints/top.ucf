@@ -1,0 +1,5 @@
+NET "fclk" LOC = "P56";
+NET "fclk" TNM_NET = "fclk";
+TIMESPEC "TS_CLK" = PERIOD "fclk" 20 ns HIGH 50 %; 
+NET "tx" LOC = "P78" | IOSTANDARD=LVCMOS33 | DRIVE=12;
+NET "rx" LOC = "P79"; | IOSTANDARD=LVCMOS33 | DRIVE=12;
