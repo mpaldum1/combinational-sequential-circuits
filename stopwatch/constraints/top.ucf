@@ -1,0 +1,65 @@
+## Clock signal
+NET "fclk" LOC = "P56";
+NET "fclk" TNM_NET = "fclk";
+TIMESPEC "TS_CLK" = PERIOD "fclk" 50 MHz HIGH 50 %; 
+
+## Switches
+
+## beg_number
+NET "beg_number<0>"            LOC = "P5"    | IOSTANDARD = "LVCMOS33";   
+NET "beg_number<1>"            LOC = "P6"    | IOSTANDARD = "LVCMOS33";        
+NET "beg_number<2>"            LOC = "P7"    | IOSTANDARD = "LVCMOS33";        
+NET "beg_number<3>"            LOC = "P8"    | IOSTANDARD = "LVCMOS33";       
+NET "beg_number<4>"            LOC = "P9"    | IOSTANDARD = "LVCMOS33";        
+NET "beg_number<5>"            LOC = "P10"   | IOSTANDARD = "LVCMOS33";        
+NET "beg_number<6>"            LOC = "P11"   | IOSTANDARD = "LVCMOS33";    
+NET "beg_number<7>"            LOC = "P12"   | IOSTANDARD = "LVCMOS33"; 
+
+## pause
+NET "pause<0>"            LOC = "P78"    | IOSTANDARD = "LVCMOS33";
+NET "pause<1>"            LOC = "P79"    | IOSTANDARD = "LVCMOS33";
+NET "pause<2>"            LOC = "P80"    | IOSTANDARD = "LVCMOS33";
+NET "pause<3>"            LOC = "P81"    | IOSTANDARD = "LVCMOS33";
+NET "pause<4>"            LOC = "P82"    | IOSTANDARD = "LVCMOS33";
+NET "pause<5>"            LOC = "P83"    | IOSTANDARD = "LVCMOS33";
+NET "pause<6>"            LOC = "P97"    | IOSTANDARD = "LVCMOS33";
+NET "pause<7>"            LOC = "P98"    | IOSTANDARD = "LVCMOS33";
+NET "pause<8>"            LOC = "P99"    | IOSTANDARD = "LVCMOS33";
+NET "pause<9>"            LOC = "P100"   | IOSTANDARD = "LVCMOS33";
+NET "pause<10>"           LOC = "P101"   | IOSTANDARD = "LVCMOS33";
+NET "pause<11>"           LOC = "P102"   | IOSTANDARD = "LVCMOS33";
+
+#blag
+NET "bflag"           LOC = "P32"   | IOSTANDARD = "LVCMOS33";
+
+#eflag
+NET "eflag"           LOC = "P33"   | IOSTANDARD = "LVCMOS33";
+
+## beg_number
+
+## 7 segment display
+
+##f_digit 
+NET "f_digit<7>"			LOC = "P111"	| IOSTANDARD = "LVCMOS33";
+NET "f_digit<6>"			LOC = "P112"	| IOSTANDARD = "LVCMOS33";		
+NET "f_digit<5>"			LOC = "P114"	| IOSTANDARD = "LVCMOS33";
+NET "f_digit<4>"			LOC = "P115"	| IOSTANDARD = "LVCMOS33";		
+NET "f_digit<3>"			LOC = "P116"	| IOSTANDARD = "LVCMOS33";		
+NET "f_digit<2>"			LOC = "P117"	| IOSTANDARD = "LVCMOS33";
+NET "f_digit<1>"			LOC = "P118"	| IOSTANDARD = "LVCMOS33";
+NET "f_digit<0>"			LOC = "P119"	| IOSTANDARD = "LVCMOS33";	
+
+##s_digit 
+NET "s_digit<7>"			LOC = "P121"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<6>"			LOC = "P137"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<5>"			LOC = "P138"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<4>"			LOC = "P139"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<3>"			LOC = "P140"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<2>"			LOC = "P141"	| IOSTANDARD = "LVCMOS33";		
+NET "s_digit<1>"			LOC = "P142"	| IOSTANDARD = "LVCMOS33";
+NET "s_digit<0>"			LOC = "P105"	| IOSTANDARD = "LVCMOS33";		
+									
+
+
+
+
