@@ -1,0 +1,2 @@
+NET "ipin1" LOC = "P78";
+NET "ipin2" LOC = "P79";
